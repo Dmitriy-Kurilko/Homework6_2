@@ -59,10 +59,10 @@ def write_results():
     quantity_games, max_points = get_results(user_name)
 
     if int(points) > int(max_points):
-        print(f'Всего игр сыграно: {quantity_games + 1}')
+        print(f'Всего игр сыграно: {quantity_games}')
         print(f'Максимальный рекорд: {points}')
     else:
-        print(f'Всего игр сыграно: {quantity_games + 1}')
+        print(f'Всего игр сыграно: {quantity_games}')
         print(f'Максимальный рекорд: {max_points}')
 
 # Начало кода
